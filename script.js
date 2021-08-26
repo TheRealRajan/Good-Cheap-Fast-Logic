@@ -12,19 +12,19 @@ function doTheTrick(theClickedOne){
         if (good === theClickedOne){
             fast.checked = false
     
-            message.innerHTML = `Uh uh you can only have <span>Good</span> &  <span>Cheap</span> !`
+            message.innerHTML = `Uh uh you can only have <span class="yes">Good</span> &  <span class="yes">Cheap</span><br> It will not be <span class="no">Fast</span> !`
 
         }
         if (cheap === theClickedOne){
             good.checked = false
             
-            message.innerHTML = `Uh uh you can only have <span>Cheap</span> & <span>Fast</span> !`
+            message.innerHTML = `Uh uh you can only have <span class="yes">Cheap</span> & <span class="yes">Fast</span><br> It will not be <span class="no">Good</span> !`
 
         }
         if (fast === theClickedOne){
             cheap.checked = false
            
-            message.innerHTML = `Uh uh you can only have <span>Fast</span> & <span>Good</span> !`
+            message.innerHTML = `Uh uh you can only have <span class="yes">Fast</span> & <span class="yes">Good</span><br> It will not be <span class="no">Cheap</span> !`
 
         }
     }

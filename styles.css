@@ -63,6 +63,7 @@ body {
   transition: 0.5s ease;
   opacity: 0.8;
   text-align: center;
+  line-height: 2;
 }
 .message span {
   opacity: 1;
@@ -71,7 +72,12 @@ body {
   border-radius: 100px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
-
+.yes {
+  color: rgb(131, 253, 131);
+}
+.no {
+  color: rgb(248, 135, 135);
+}
 /* .animation {
   animation: message 0.5s linear;
 } */
